@@ -40,7 +40,7 @@ html{
 }
 
 body{
-    background-color: rgb(239, 209, 170);
+    background-color: rgb(202, 192, 180);
     font-family: system-ui;
 }
 .container{
@@ -50,7 +50,7 @@ body{
 }
 
 header{
-    background-color: rgb(240, 223, 202);
+    background-color: rgb(235, 227, 227);
     position: fixed;
     margin: 0;
     top:0; left: 0; right:0;
