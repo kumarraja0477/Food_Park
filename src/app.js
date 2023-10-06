@@ -37,6 +37,7 @@ app.post("/login", async(req, res) => {
         })
         const registered = await registernewusers.save();
         res.redirect("index.html");
+        console.log("Signup successful");
 
     } catch (error) {
         res.status(400).send(error);
