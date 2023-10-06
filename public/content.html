@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-Park</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js">
+    </script>
+    <style>
+        input.ng-invalid.ng-dirty {
+            border-bottom: 2px solid red;
+        }
+    </style>
+</head>
+<body class="">
+    
+    <div class="container">
+        <header>
+            <a href="#" class="logo"></i>Fo🥘d-Park</a>
+
+        <nav class="navbar">
+            <a class="active" href="#menu">Menu</a>
+            
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#review">review</a>
+            <a href="feedback.html">feedback</a>
+            <a href="index.html">logout</a>
+            
+        </nav>
+            <!-- searchbar-button -->
+            <div class="search">
+                <input type="text" placeholder="Search food...">
+                <button onclick="searchFood()"><i class="fas fa-search"></i></button>
+            </div>
+
+
+            <div class="shopping">
+                <img src="image/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+
+        </header>
+
+
+        <!-- speciality section starts-->
+    <section class="speciality" id="menu">
+
+        <h1 class="speciality"><span>Menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img class="image" src="image/s-img-1.jpg" alt="">
+                <div class="content">
+                    <img src="image/s-1.png" alt="">
+                    <h3>tasty burger</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="image/s-img-2.jpg" alt="">
+                <div class="content">
+                    <img src="image/s-2.png" alt="">
+                    <h3>tasty pizza</h3>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="image/s-img-3.jpg" alt="">
+                <div class="content">
+                    <img src="image/s-3.png" alt="">
+                    <h3>cold ice-cream</h3>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="image/s-img-4.jpg" alt="">
+                <div class="content">
+                    <img src="image/s-4.png" alt="">
+                    <h3>cold drinks</h3>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="image/s-img-5.jpg" alt="">
+                <div class="content">
+                    <img src="image/s-5.png" alt="">
+                    <h3>tasty sweets</h3>
+
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="image/s-img-6.jpg" alt="">
+                <div class="content">
+                    <img src="image/s-6.png" alt="">
+                    <h3>healty breakfast</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- speciality section ends-->
+    <div class="dishes">
+        <h1 class="heading" id="dishes"><span>Dishes</span> </h1>
+    </div>
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+
+
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>FoodyPoint is additionally home to the amazing Table-Side Caesar Spun Signature Salad, specially made tableside from a rundown of 10 fixings including blue cheddar, shrimp, olives, banana peppers, anchovies. And our homemade mystery Caesar dressing. Other housetop choices are our Grilled or Chilled Shrimp, new walleye conveyed every day from Red Lake Nation in Minnesota, and house-ground steak burgers.</p>
+                <p>Our menu offers something for everybody, from the light passage of plates of mixed greens and little nibbles to the inconceivable  T Bone steak. Our steaks are sliced in-house to guarantee flawlessness and expertly barbecued at 2,000 degrees.We will probably give excellent client benefit, the best quality fixings, and a noteworthy affair whether it’s an uncommon occasion, easygoing social event of companions or a sentimental night out on the town.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+
+     <!-- review section starts  -->
+
+     <section class="review" id="review">
+
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Amit kumar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Food was really awsome overall great experence.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>kumar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Food was really awsome overall great experence.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-3.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>raja</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Food was really awsome overall great experence.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="image/pic-4.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>soumadip</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Food was really awsome overall great experence.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Banglore</a>
+                <a href="#">Vellore</a>
+                <a href="#">Chenai</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Hydrabad</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#menu">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">Kumar@gmail.com</a>
+                <a href="#">Abhishek@gmail.com</a>
+                <a href="#">mumbai, india - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2023 by <span>KUMAR RAJA</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+    <div class="loader-container">
+        <img src="./image/loader.gif" alt="">
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "food-park",
+  "version": "1.0.0",
+  "description": "Created a food ordering website and implemented features like user authentication, add to cart and feedback sharing.\r Used NodeJS and MongoDB in the backend to store user login details and cart details.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "html": "^1.0.0",
+    "mongoose": "^7.5.4",
+    "nodemon": "^3.0.1"
+  }
+}
