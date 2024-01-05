@@ -14,10 +14,10 @@ closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
 })
 
-PlaceOrdered.addEventListener('click', ()=> {
-  // Redirect to the order successful page
-  window.location.href = "order.html";
-});
+// PlaceOrdered.addEventListener('click', ()=> {
+//   // Redirect to the order successful page
+//   window.location.href = "order.html";
+// });
 
 let products = [
     {
