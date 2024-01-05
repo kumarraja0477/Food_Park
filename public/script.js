@@ -1,4 +1,5 @@
 let openShopping = document.querySelector('.shopping');
+let PlaceOrdered = document.querySelector('.PlaceOrdered');
 let closeShopping = document.querySelector('.closeShopping');
 let list = document.querySelector('.list');
 let listCard = document.querySelector('.listCard');
@@ -12,6 +13,11 @@ openShopping.addEventListener('click', ()=>{
 closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
 })
+
+PlaceOrdered.addEventListener('click', ()=> {
+  // Redirect to the order successful page
+  window.location.href = "order.html";
+});
 
 let products = [
     {
